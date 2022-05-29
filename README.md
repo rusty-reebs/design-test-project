@@ -12,7 +12,7 @@ Run the app with `npm start`.
 
 - I also discovered that template literals are somewhat limited in Tailwind. For example, I wanted to use `"green-400"` as a `color` variable, but found that ``className={`text-${color}`}`` will not render correctly. Thus, I used both `"bg-green-400/30"` and `"text-green-400"` as color props.
 
-- I noticed that the grid lines `first:border-b first:border-r last:border-t last:border-l` on the Detail div don't intersect perfectly (at least it looks that way on my machine). With more time, I would investigate this further and try solutions like `divide-x`, `divide-y`, etc.
+- I noticed that the grid lines `first:border-b first:border-r last:border-t last:border-l` on the Detail components don't intersect perfectly (at least it looks that way on my machine). With more time, I would investigate this further and try solutions like `divide-x`, `divide-y`, or possibly pass the borders for each component through props.
 
 - I assumed the data values to be fetched as a JSON object, which I placed in state.
 

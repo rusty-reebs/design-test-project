@@ -44,7 +44,6 @@ const data = {
       data: [1.5, 2.0, 1.9, 2.1, 2.4, 2.0],
       borderColor: "rgb(53, 162, 235)",
       lineTension: 0.5,
-      //   fill: "origin",
     },
     {
       data: [1.9, 1.9, 1.9, 1.9, 1.9, 1.9],

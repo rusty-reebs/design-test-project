@@ -24,7 +24,7 @@ const Detail = ({
           {format ? "%" : null}
         </p>
         <p
-          className={`h-1/5 text-sm ${
+          className={`text-sm ${
             change >= 0 ? "text-green-500" : "text-red-500"
           }`}
         >

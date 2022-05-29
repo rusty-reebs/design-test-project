@@ -1,6 +1,7 @@
 // Views.js
 
 import React, { useState } from "react";
+import Chart from "./Chart";
 import { ReactComponent as TrendingDownIcon } from "../img/trendingdown.svg";
 import { ReactComponent as TrendingUpIcon } from "../img/trendingup.svg";
 
@@ -56,6 +57,7 @@ const Views = ({ data }) => {
           <p className="text-gray-400 ml-2">VS PREV. DAY</p>
         </div>
       </div>
+      <Chart />
     </div>
   );
 };

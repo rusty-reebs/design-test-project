@@ -4,7 +4,7 @@ Hi!
 
 Install packages with `npm install`.
 
-Run the app with `npm run start`.
+Run the app with `npm start`.
 
 ***A few comments:***
 
@@ -19,4 +19,4 @@ Run the app with `npm run start`.
 - I used react-chartjs-2 and Chart.js to generate the chart, but I didn't spend too much time on it.
   
 
-I'd be happy to discuss more details on a call! Thank you for your consideration.
+I'd be happy to discuss more details on a call! Thank you for your consideration. - Russell
